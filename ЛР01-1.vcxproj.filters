@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{f8e28f40-52cd-411b-aaf5-a4009b95f8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Menu">
+      <UniqueIdentifier>{fb256a59-d79d-4eff-868c-5b78e7dff7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\MenuItem">
+      <UniqueIdentifier>{20824c9c-b012-44ea-a023-010770b8ac85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\InstituteVisitor">
+      <UniqueIdentifier>{59e1cc60-9ca5-4814-a362-7bdb7effd158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Student">
+      <UniqueIdentifier>{4a8f8565-dae4-4d00-8b75-e621b99eb47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Lecturer">
+      <UniqueIdentifier>{20cef3ca-a8b9-49c0-a2ed-377c45372af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Storage">
+      <UniqueIdentifier>{975ad878-c203-4ce2-aa4d-e2279412b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\MainMenu">
+      <UniqueIdentifier>{54c4b92e-0a7e-4d76-a727-9736f87e1c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\AbstractMenu">
+      <UniqueIdentifier>{7a75a928-d6e0-4646-8c6d-8f82830b5993}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="maincpp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>Modules\MenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Modules\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecturer.cpp">
+      <Filter>Modules\Lecturer</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage.cpp">
+      <Filter>Modules\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Modules\MainMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Modules\MenuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="InstituteVisitor.h">
+      <Filter>Modules\InstituteVisitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Modules\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="Lecturer.h">
+      <Filter>Modules\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>Modules\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Modules\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMenu.h">
+      <Filter>Modules\AbstractMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
